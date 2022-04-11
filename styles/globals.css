@@ -4,13 +4,135 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    
+}
+h1, h2, h3, h4 {
+  font-family: 'Lobster', cursive !important;
+}
+
+div.card-title.h5 {
+  font-family: 'Lobster', cursive !important
+}
+
+/* custom button design */
+
+button {
+  font-family: 'Lobster', cursive !important
+}
+
+/* custom nav link design behaviour*/
+nav a{
+  font-family: 'PT Sans', sans-serif !important;
+}
+
+ul {
+  list-style: none;
 }
 
 a {
-  color: inherit;
+  color: hsla(0,0%,100%,.55);
   text-decoration: none;
+  font-family: 'PT Sans', sans-serif !important;
+}
+
+a:hover {
+  color:  hsla(0,0%,100%,.75);;
+  color: red;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color:  hsla(0,0%,100%,.75);;
+  color: red;
+  text-decoration: none;
+}
+
+
+ul li a {
+  font-family: 'PT Sans', sans-serif !important;
+  font-size: 1.2rem !important;
+  color: hsla(0,0%,100%,.55);
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color:  hsla(0,0%,100%,.75);;
+  text-decoration: underline;
 }
 
 * {
   box-sizing: border-box;
+}
+
+main { 
+  min-height: 300px;
+  height:100%;
+
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive !important;
+  font-size: 2rem !important;
+  color: rgb(78, 78, 78);
+}
+
+.nav-link {
+  color: hsla(0,0%,100%,.55) !important;
+}
+.nav-link:hover {
+  color: hsla(0,0%,100%,.55) !important;
+  /* padding: 0 0 !important; */
+}
+
+.nav-link,.dropdown-item {
+  font-family: 'PT Sans', sans-serif !important;
+  font-size: 1.2rem !important; 
+}
+
+.nav-link,.dropdown-item:hover {
+  text-decoration: none !important;
+  color: hsla(0,0%,100%,.75) !important;
+}
+
+/* a.btn.btn-info.nav-link {
+  font-family: 'PT Sans', sans-serif !important;
+  font-size: 1.2rem !important;
+} */
+
+div > a {
+  text-decoration: none;
+  font-family: 'Lobster', cursive !important;
+  font-size: 2rem !important;
+  color: hsla(0,0%,100%,.55);
+}
+div > a:hover {
+  text-decoration: none;
+  color: hsla(0,0%,100%,.75) ;
+}
+div > a:active {
+  text-decoration: none;
+}
+div > a:focus {
+  text-decoration: none;
+}
+
+.linkedin:hover {
+  color: #0a66c2;
+  text-decoration: none;
+}
+.twitter:hover {
+  color: #1da1f2;
+  text-decoration: none;
+}
+.facebook:hover {
+  color: #4867aa;
+  text-decoration: none;
+}
+.instagram:hover {
+  color: #d40d2e;
+  text-decoration: none;
+}
+.whatsapp:hover {
+  color: #4fcc5d;
+  text-decoration: none;
 }
